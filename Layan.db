@@ -1,0 +1,13 @@
+)* create table dep
+, depno int primary Key 
+depname varchar(20);(
+) create table std
+,stdno int primary Key
+,stdname varchar(20)
+depno int
+;(foreing key(depno)references dep(depno)
+;drop table dep
+;drop table std
+;alter table dep add loc varchar(20)
+;alter table dep drop column loc
+;alter table dep modify depname nvarchar(30)
